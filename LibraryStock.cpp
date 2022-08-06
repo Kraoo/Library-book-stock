@@ -31,7 +31,7 @@ void book::feeddata()	{
 	cout<<"Enter Title Name: ";       cin.getline(title,40);
 	cout<<"Enter Publisher Name: ";   cin.getline(publisher,40);
 	cout<<"Enter Price: ";            cin>>*price;
-	cout<<"Enter Stock Position: ";   cin>>*stock;   
+	cout<<"Enter Stock Amount: ";   cin>>*stock;   
 	
 }
 
@@ -41,7 +41,7 @@ void book::editdata()	{
 	cout<<"Enter Title Name: ";       cin.getline(title,40);
 	cout<<"Enter Publisher Name: ";   cin.getline(publisher,40);
 	cout<<"Enter Price: ";            cin>>*price;
-	cout<<"Enter Stock Position: ";   cin>>*stock;   
+	cout<<"Enter Stock Amount: ";   cin>>*stock;   
 	
 }
 
@@ -50,7 +50,7 @@ void book::showdata()	{
 	cout<<"\nTitle Name: "<<title;
 	cout<<"\nPublisher Name: "<<publisher;
 	cout<<"\nPrice: "<<*price;
-	cout<<"\nStock Position: "<<*stock;   
+	cout<<"\nStock Amount: "<<*stock;   
 	
 }
 
